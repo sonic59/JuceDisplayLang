@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{AA1B89E0-77FC-CC80-F750-C30E145712A5}") = "JuceDisplayLang", "JuceDisplayLang.vcxproj", "{D0C22B45-B7C5-C2D0-9E58-12DD638CFA55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C22B45-B7C5-C2D0-9E58-12DD638CFA55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0C22B45-B7C5-C2D0-9E58-12DD638CFA55}.Debug|Win32.Build.0 = Debug|Win32
+		{D0C22B45-B7C5-C2D0-9E58-12DD638CFA55}.Release|Win32.ActiveCfg = Release|Win32
+		{D0C22B45-B7C5-C2D0-9E58-12DD638CFA55}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
