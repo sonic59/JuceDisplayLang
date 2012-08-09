@@ -47,7 +47,12 @@ public:
     //==============================================================================
     const String getApplicationName()
     {
-        return "JuceDisplayLang";
+        String s;
+        s += "Loc-Lang: ";
+        s += SystemStats::getUserLanguage();
+        s += " Loc-Region: ";
+        s += SystemStats::getUserRegion();
+        return s;
     }
 
     const String getApplicationVersion()
