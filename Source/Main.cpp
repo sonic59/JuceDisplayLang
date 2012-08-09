@@ -52,6 +52,8 @@ public:
         s += SystemStats::getUserLanguage();
         s += " Loc-Region: ";
         s += SystemStats::getUserRegion();
+        s += " Dis-Lang: ";
+        s += SystemStats::getDisplayLanguage();
         return s;
     }
 
