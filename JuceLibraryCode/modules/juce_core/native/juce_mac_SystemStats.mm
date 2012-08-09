@@ -209,6 +209,13 @@ static String getLocaleValue (CFStringRef key)
 
 String SystemStats::getUserLanguage()   { return getLocaleValue (kCFLocaleLanguageCode); }
 String SystemStats::getUserRegion()     { return getLocaleValue (kCFLocaleCountryCode); }
+String SystemStats::getDisplayLanguage()
+{
+    CFArrayRef cfPrefLangs = CFLocaleCopyPreferredLanguages();
+    const String result (String::fromCFString ((CFStringRef) CFArrayGetValueAtIndex (cfPrefLangs, 0)));
+    CFRelease (cfPrefLangs);
+    return result;
+}
 
 //==============================================================================
 class HiResCounterHandler
