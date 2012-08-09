@@ -1,0 +1,1 @@
+Adding support to get OS display language. OS display language is seperate from OS locale. OS display language is the current language used in all the OS menus.
